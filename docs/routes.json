@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "currency": "CAD",
+    "daily_search_limit": 3,
+    "passport": "CN"
+  },
+  "routes": []
+}

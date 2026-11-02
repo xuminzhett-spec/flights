@@ -1,0 +1,115 @@
+:root {
+  --bg: #f4f6fb; --card: #ffffff; --text: #111827; --muted: #6b7280; --line: #e5e7eb;
+  --brand: #1d4ed8; --brand-ink: #ffffff;
+  --ok: #047857; --ok-bg: #d1fae5; --warn: #92400e; --warn-bg: #fef3c7;
+  --bad: #b91c1c; --bad-bg: #fee2e2; --na: #4b5563; --na-bg: #e5e7eb;
+  --down: #047857; --up: #b91c1c;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b1020; --card: #151b2e; --text: #e8ecf5; --muted: #9aa4bd; --line: #26304a;
+    --brand: #6ea0ff; --brand-ink: #0b1020;
+    --ok: #6ee7b7; --ok-bg: #064e3b; --warn: #fcd34d; --warn-bg: #5a3a0a;
+    --bad: #fca5a5; --bad-bg: #5b1a1a; --na: #cbd5e1; --na-bg: #2b354d;
+    --down: #6ee7b7; --up: #fca5a5;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  padding-bottom: 88px;
+}
+header {
+  display: flex; justify-content: space-between; align-items: flex-start; gap: 12px;
+  padding: 16px 16px 8px; max-width: 720px; margin: 0 auto;
+}
+h1 { font-size: 20px; margin: 0; }
+h2 { font-size: 18px; margin: 0 0 12px; }
+.muted { color: var(--muted); } .small { font-size: 13px; }
+#updated { margin: 2px 0 0; font-size: 13px; }
+.head-btns { display: flex; gap: 8px; flex-shrink: 0; }
+
+button {
+  font: inherit; border: 0; border-radius: 10px; padding: 10px 16px; cursor: pointer;
+  background: var(--brand); color: var(--brand-ink); min-height: 44px;
+}
+button.ghost { background: transparent; color: var(--brand); border: 1px solid var(--line); padding: 8px 12px; }
+button.danger { background: var(--bad); color: #fff; }
+button:disabled { opacity: .5; cursor: default; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid var(--brand); outline-offset: 2px; }
+
+.filters { display: flex; flex-wrap: wrap; gap: 8px; padding: 4px 16px 8px; max-width: 720px; margin: 0 auto; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; min-height: 40px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 999px; font-size: 13px; cursor: pointer;
+}
+.chip input { width: 18px; height: 18px; margin: 0; }
+
+main { max-width: 720px; margin: 0 auto; padding: 0 16px; display: grid; gap: 12px; }
+.empty { text-align: center; padding: 40px 12px; color: var(--muted); }
+
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.card-top {
+  width: 100%; text-align: left; background: transparent; color: inherit; border-radius: 0;
+  display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 14px 16px; min-height: 0;
+}
+.route { font-weight: 600; font-size: 17px; }
+.sub { color: var(--muted); font-size: 13px; }
+.right { text-align: right; }
+.price { font-size: 24px; font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.delta { font-size: 13px; text-align: right; }
+.delta.down { color: var(--down); } .delta.up { color: var(--up); }
+.badges { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.badge { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--na-bg); color: var(--na); }
+.badge.ok { background: var(--ok-bg); color: var(--ok); }
+.badge.warn { background: var(--warn-bg); color: var(--warn); }
+.badge.bad { background: var(--bad-bg); color: var(--bad); }
+.card.off { opacity: .6; }
+
+.detail { border-top: 1px solid var(--line); padding: 12px 16px 16px; display: none; }
+.card.open .detail { display: block; }
+svg.chart { width: 100%; height: auto; display: block; }
+.chart .line { fill: none; stroke: var(--brand); stroke-width: 2.5; stroke-linejoin: round; }
+.chart .dot { fill: var(--brand); }
+.chart .goal { stroke: var(--ok); stroke-dasharray: 5 4; stroke-width: 1.5; }
+.chart text { fill: var(--muted); font-size: 11px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 8px; }
+th, td { text-align: left; padding: 6px 4px; border-bottom: 1px solid var(--line); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.nw { white-space: nowrap; }
+table { font-size: 13px; }
+.tools { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.tools a { text-decoration: none; display: inline-flex; align-items: center; }
+a.btn { padding: 10px 14px; border-radius: 10px; background: var(--brand); color: var(--brand-ink); min-height: 44px; }
+.err { color: var(--bad); font-size: 13px; margin: 8px 0 0; }
+
+.fab {
+  position: fixed; left: 50%; transform: translateX(-50%); bottom: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.25); padding: 12px 24px; border-radius: 999px;
+}
+
+dialog {
+  border: 0; border-radius: 16px; padding: 20px; width: min(92vw, 460px);
+  background: var(--card); color: var(--text); max-height: 90vh; overflow: auto;
+}
+dialog::backdrop { background: rgba(0,0,0,.5); }
+label { display: block; font-size: 14px; color: var(--muted); margin-bottom: 12px; }
+label.check { display: flex; align-items: center; gap: 8px; color: var(--text); }
+label.check input { width: 20px; height: 20px; margin: 0; }
+input:not([type=checkbox]), select {
+  display: block; width: 100%; margin-top: 4px; padding: 10px 12px; font: inherit; min-height: 44px;
+  border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--text);
+}
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 8px; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 12px 0; }
+
+#toast {
+  position: fixed; left: 50%; bottom: 84px; transform: translateX(-50%) translateY(20px);
+  background: #111827; color: #fff; padding: 10px 16px; border-radius: 10px; font-size: 14px;
+  opacity: 0; pointer-events: none; transition: .25s; max-width: 90vw; text-align: center; z-index: 10;
+}
+#toast.show { opacity: 1; transform: translateX(-50%); }
+@media (prefers-reduced-motion: reduce) { #toast { transition: none; } }

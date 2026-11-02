@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1d4ed8">
+<title>机票价格追踪</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div>
+    <h1>✈ 机票价格追踪</h1>
+    <p id="updated" class="muted">加载中…</p>
+  </div>
+  <div class="head-btns">
+    <button id="btn-run" class="ghost" title="立即检查一次">立即检查</button>
+    <button id="btn-settings" class="ghost" aria-label="设置">设置</button>
+  </div>
+</header>
+
+<section class="filters" aria-label="筛选">
+  <label class="chip"><input type="checkbox" id="f-visa"> 无需提前签证</label>
+  <label class="chip"><input type="checkbox" id="f-bag"> 含托运行李</label>
+  <label class="chip"><input type="checkbox" id="f-direct"> 仅直飞</label>
+</section>
+
+<main id="list"></main>
+
+<button id="btn-add" class="fab">＋ 添加航线</button>
+
+<div id="toast" role="status"></div>
+
+<dialog id="dlg-route">
+  <form method="dialog" id="form-route">
+    <h2 id="route-title">添加航线</h2>
+    <label>名称（可选）<input name="label" maxlength="40" placeholder="例：回国过年"></label>
+    <div class="row">
+      <label>出发机场代码<input name="from" required maxlength="3" placeholder="YEG" autocapitalize="characters"></label>
+      <label>到达机场代码<input name="to" required maxlength="3" placeholder="PVG" autocapitalize="characters"></label>
+    </div>
+    <div class="row">
+      <label>出发日期<input type="date" name="depart" required></label>
+      <label>返程日期（留空=单程）<input type="date" name="return"></label>
+    </div>
+    <label>目标价格（低于此价发邮件，留空=不提醒）<input type="number" name="alert_below" min="1" step="1" inputmode="numeric"></label>
+    <label class="check"><input type="checkbox" name="need_checked_bag"> 提醒时只算含托运行李的票</label>
+    <label class="check"><input type="checkbox" name="visa_ok_only"> 目的地需要提前办签证时不提醒</label>
+    <label class="check"><input type="checkbox" name="enabled" checked> 启用追踪</label>
+    <p class="muted small">机场代码是 3 个字母，例如 YEG 埃德蒙顿、YVR 温哥华、PVG 上海浦东、PEK 北京首都。</p>
+    <div class="actions">
+      <button type="button" class="ghost" data-close>取消</button>
+      <button type="submit" id="btn-save-route">保存</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlg-settings">
+  <form method="dialog" id="form-settings">
+    <h2>设置</h2>
+    <label>货币
+      <select name="currency"><option>CAD</option><option>USD</option><option>CNY</option><option>EUR</option></select>
+    </label>
+    <label>每天最多查询次数（所有航线轮流查）<input type="number" name="daily_search_limit" min="1" max="50" step="1"></label>
+    <p class="muted small">次数越多越快用完价格数据的免费额度。航线多、次数少时，每条航线会隔几天才更新一次。</p>
+    <hr>
+    <label>GitHub 令牌（只保存在这台手机的浏览器里）<input type="password" name="token" autocomplete="off" placeholder="github_pat_…"></label>
+    <label>仓库（一般自动识别，格式：用户名/仓库名）<input name="repo" placeholder="自动识别"></label>
+    <p class="muted small">没有令牌时只能查看，不能修改航线。令牌的创建方法见 README。</p>
+    <div class="actions">
+      <button type="button" class="ghost" data-close>取消</button>
+      <button type="submit">保存</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlg-confirm">
+  <form method="dialog">
+    <h2 id="confirm-title">确认</h2>
+    <p id="confirm-text"></p>
+    <div class="actions">
+      <button type="button" class="ghost" data-close>取消</button>
+      <button type="submit" id="confirm-ok" class="danger">确定</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>
