@@ -6,18 +6,6 @@
   },
   "routes": [
     {
-      "id": "rce468xekn",
-      "label": "暑期",
-      "from": "YYC",
-      "to": "PVG",
-      "depart": "2027-04-30",
-      "return": null,
-      "alert_below": 3000,
-      "need_checked_bag": true,
-      "visa_ok_only": false,
-      "enabled": true
-    },
-    {
       "id": "r7jdvegtld",
       "label": "",
       "from": "YYC",
