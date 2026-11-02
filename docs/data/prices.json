@@ -2,7 +2,7 @@
  "routes": {
   "rq5kbuqt66": {
    "meta": {
-    "last_checked": "2026-11-02T21:44:05+00:00",
+    "last_checked": "2026-11-02T22:19:08+00:00",
     "visa": {
      "country": "CN",
      "code": "home",
@@ -13,6 +13,13 @@
    "history": [
     {
      "t": "2026-11-02T21:44:05+00:00",
+     "min": 3713,
+     "min_bag": null,
+     "airline": "Air Canada",
+     "stops": 2
+    },
+    {
+     "t": "2026-11-02T22:19:08+00:00",
      "min": 3713,
      "min_bag": null,
      "airline": "Air Canada",
@@ -93,6 +100,6 @@
    ]
   }
  },
- "updated": "2026-11-02T21:44:05+00:00",
+ "updated": "2026-11-02T22:19:08+00:00",
  "currency": "CNY"
 }
