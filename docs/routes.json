@@ -4,18 +4,5 @@
     "daily_search_limit": 3,
     "passport": "CN"
   },
-  "routes": [
-    {
-      "id": "r7jdvegtld",
-      "label": "",
-      "from": "YYC",
-      "to": "PVG",
-      "depart": "2026-12-01",
-      "return": null,
-      "alert_below": 5000,
-      "need_checked_bag": true,
-      "visa_ok_only": false,
-      "enabled": true
-    }
-  ]
+  "routes": []
 }
