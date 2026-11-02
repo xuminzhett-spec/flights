@@ -1,0 +1,806 @@
+{
+ "airports": {
+  "YYC": "CA",
+  "PVG": "CN"
+ },
+ "visa": {
+  "AL": {
+   "code": "free",
+   "text": "免签（90天）"
+  },
+  "DZ": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "AD": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "AO": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "AG": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "AR": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "AM": {
+   "code": "free",
+   "text": "免签（180天）"
+  },
+  "AU": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "AT": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "AZ": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "BS": {
+   "code": "free",
+   "text": "免签（90天）"
+  },
+  "BH": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "BD": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "BB": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "BY": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "BE": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "BZ": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "BJ": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "BT": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "BO": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "BA": {
+   "code": "free",
+   "text": "免签（90天）"
+  },
+  "BW": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "BR": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "BN": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "BG": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "BF": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "BI": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "KH": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "CM": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "CA": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "CV": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "CF": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "TD": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "CL": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "CN": {
+   "code": "home",
+   "text": "本国"
+  },
+  "CO": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "KM": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "CG": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "CD": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "CR": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "CI": {
+   "code": "eta",
+   "text": "电子旅行许可 ETA（需提前申请）"
+  },
+  "HR": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "CU": {
+   "code": "free",
+   "text": "免签（90天）"
+  },
+  "CY": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "CZ": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "DK": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "DJ": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "DM": {
+   "code": "free",
+   "text": "免签（180天）"
+  },
+  "DO": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "EC": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "EG": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "SV": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "GQ": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "ER": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "EE": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "SZ": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "ET": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "FJ": {
+   "code": "free",
+   "text": "免签（120天）"
+  },
+  "FI": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "FR": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "GA": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "GM": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "GE": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "DE": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "GH": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "GR": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "GD": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "GT": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "GN": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "GW": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "GY": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "HT": {
+   "code": "free",
+   "text": "免签（90天）"
+  },
+  "HN": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "HK": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "HU": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "IS": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "IN": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "ID": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "IR": {
+   "code": "free",
+   "text": "免签（21天）"
+  },
+  "IQ": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "IE": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "IL": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "IT": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "JM": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "JP": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "JO": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "KZ": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "KE": {
+   "code": "eta",
+   "text": "电子旅行许可 ETA（需提前申请）"
+  },
+  "KI": {
+   "code": "free",
+   "text": "免签（90天）"
+  },
+  "XK": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "KW": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "KG": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "LA": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "LV": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "LB": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "LS": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "LR": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "LY": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "LI": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "LT": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "LU": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "MO": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "MG": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "MW": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "MY": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "MV": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "ML": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "MT": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "MH": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "MR": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "MU": {
+   "code": "free",
+   "text": "免签（90天）"
+  },
+  "MX": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "FM": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "MD": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "MC": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "MN": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "ME": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "MA": {
+   "code": "free",
+   "text": "免签（90天）"
+  },
+  "MZ": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "MM": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "NA": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "NR": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "NP": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "NL": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "NZ": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "NI": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "NE": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "NG": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "KP": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "MK": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "NO": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "OM": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "PK": {
+   "code": "eta",
+   "text": "电子旅行许可 ETA（需提前申请）"
+  },
+  "PW": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "PS": {
+   "code": "free",
+   "text": "免签"
+  },
+  "PA": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "PG": {
+   "code": "eta",
+   "text": "电子旅行许可 ETA（需提前申请）"
+  },
+  "PY": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "PE": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "PH": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "PL": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "PT": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "QA": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "RO": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "RU": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "RW": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "KN": {
+   "code": "free",
+   "text": "免签（90天）"
+  },
+  "LC": {
+   "code": "free",
+   "text": "免签（42天）"
+  },
+  "WS": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "SM": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "ST": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "SA": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "SN": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "RS": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "SC": {
+   "code": "free",
+   "text": "免签（90天）"
+  },
+  "SL": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "SG": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "SK": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "SI": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "SB": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "SO": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "ZA": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "KR": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "SS": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "ES": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "LK": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "VC": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "SD": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "SR": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "SE": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "CH": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "SY": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "TW": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "TJ": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "TZ": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "TH": {
+   "code": "free",
+   "text": "免签（60天）"
+  },
+  "TL": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "TG": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "TO": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "TT": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "TN": {
+   "code": "free",
+   "text": "免签（90天）"
+  },
+  "TM": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "TV": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "TR": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "UG": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "UA": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "AE": {
+   "code": "free",
+   "text": "免签（30天）"
+  },
+  "GB": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "US": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "UY": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "UZ": {
+   "code": "free",
+   "text": "免签（10天）"
+  },
+  "VU": {
+   "code": "free",
+   "text": "免签（120天）"
+  },
+  "VA": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "VE": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "VN": {
+   "code": "evisa",
+   "text": "电子签证（需提前申请）"
+  },
+  "YE": {
+   "code": "required",
+   "text": "需提前办签证"
+  },
+  "ZM": {
+   "code": "free",
+   "text": "免签（90天）"
+  },
+  "ZW": {
+   "code": "voa",
+   "text": "落地签"
+  },
+  "AF": {
+   "code": "required",
+   "text": "需提前办签证"
+  }
+ },
+ "passport": "CN",
+ "visa_updated": "2026-11-02T07:11:12+00:00"
+}

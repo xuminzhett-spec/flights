@@ -1,3 +1,98 @@
 {
-  "routes": {}
+ "routes": {
+  "rce468xekn": {
+   "meta": {
+    "last_checked": "2026-11-02T07:11:14+00:00",
+    "visa": {
+     "country": "CN",
+     "code": "home",
+     "text": "本国"
+    },
+    "label": "暑期"
+   },
+   "history": [
+    {
+     "t": "2026-11-02T07:11:14+00:00",
+     "min": 4294,
+     "min_bag": null,
+     "airline": "Alaska, Korean Air",
+     "stops": 2
+    }
+   ],
+   "latest": [
+    {
+     "price": 4294,
+     "airline": "Alaska, Korean Air",
+     "stops": 2,
+     "minutes": 1320,
+     "bag": "unknown"
+    },
+    {
+     "price": 4296,
+     "airline": "Delta",
+     "stops": 2,
+     "minutes": 1355,
+     "bag": "unknown"
+    },
+    {
+     "price": 4367,
+     "airline": "China Southern, WestJet",
+     "stops": 2,
+     "minutes": 1505,
+     "bag": "unknown"
+    },
+    {
+     "price": 4529,
+     "airline": "Air Canada",
+     "stops": 1,
+     "minutes": 965,
+     "bag": "unknown"
+    },
+    {
+     "price": 4722,
+     "airline": "Korean Air, WestJet",
+     "stops": 1,
+     "minutes": 1660,
+     "bag": "unknown"
+    },
+    {
+     "price": 4827,
+     "airline": "Air Canada, Cathay Pacific",
+     "stops": 2,
+     "minutes": 1315,
+     "bag": "unknown"
+    },
+    {
+     "price": 4827,
+     "airline": "Cathay Pacific, WestJet",
+     "stops": 2,
+     "minutes": 1315,
+     "bag": "unknown"
+    },
+    {
+     "price": 5278,
+     "airline": "Delta, WestJet",
+     "stops": 1,
+     "minutes": 1265,
+     "bag": "unknown"
+    },
+    {
+     "price": 5506,
+     "airline": "Air Canada",
+     "stops": 1,
+     "minutes": 1685,
+     "bag": "unknown"
+    },
+    {
+     "price": 7524,
+     "airline": "Korean Air, WestJet",
+     "stops": 2,
+     "minutes": 1090,
+     "bag": "unknown"
+    }
+   ]
+  }
+ },
+ "updated": "2026-11-02T07:11:14+00:00",
+ "currency": "CNY"
 }
