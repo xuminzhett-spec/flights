@@ -16,6 +16,18 @@
       "need_checked_bag": false,
       "visa_ok_only": false,
       "enabled": true
+    },
+    {
+      "id": "rz7amf54es",
+      "label": "",
+      "from": "PVG",
+      "to": "YYC",
+      "depart": "2027-01-19",
+      "return": null,
+      "alert_below": null,
+      "need_checked_bag": false,
+      "visa_ok_only": false,
+      "enabled": true
     }
   ]
 }
