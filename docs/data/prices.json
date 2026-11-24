@@ -2,7 +2,7 @@
  "routes": {
   "rq5kbuqt66": {
    "meta": {
-    "last_checked": "2026-11-22T20:20:22+00:00",
+    "last_checked": "2026-11-24T00:49:31+00:00",
     "visa": {
      "country": "CN",
      "code": "home",
@@ -171,67 +171,74 @@
      "min_bag": null,
      "airline": "Alaska, Cathay Pacific",
      "stops": 2
+    },
+    {
+     "t": "2026-11-24T00:49:31+00:00",
+     "min": 4112,
+     "min_bag": null,
+     "airline": "American",
+     "stops": 1
     }
    ],
    "latest": [
     {
-     "price": 4095,
-     "airline": "Alaska, Cathay Pacific",
-     "stops": 2,
-     "minutes": 1280,
-     "bag": "unknown"
-    },
-    {
-     "price": 4128,
+     "price": 4112,
      "airline": "American",
      "stops": 1,
      "minutes": 2245,
      "bag": "unknown"
     },
     {
-     "price": 4286,
+     "price": 4270,
      "airline": "Air Canada",
      "stops": 1,
      "minutes": 920,
      "bag": "unknown"
     },
     {
-     "price": 4286,
+     "price": 4270,
      "airline": "Air Canada",
      "stops": 1,
      "minutes": 1665,
      "bag": "unknown"
     },
     {
-     "price": 6219,
+     "price": 4683,
+     "airline": "Alaska, Cathay Pacific",
+     "stops": 2,
+     "minutes": 1280,
+     "bag": "unknown"
+    },
+    {
+     "price": 4785,
      "airline": "Air Canada, Cathay Pacific",
      "stops": 2,
      "minutes": 1495,
      "bag": "unknown"
     },
     {
-     "price": 6328,
+     "price": 6305,
      "airline": "China Southern, WestJet",
      "stops": 2,
      "minutes": 1570,
      "bag": "unknown"
     },
     {
-     "price": 8262,
+     "price": 8231,
      "airline": "Korean Air, WestJet",
      "stops": 2,
      "minutes": 1150,
      "bag": "unknown"
     },
     {
-     "price": 12808,
+     "price": 12760,
      "airline": "Delta, WestJet",
      "stops": 1,
      "minutes": 970,
      "bag": "unknown"
     },
     {
-     "price": 27945,
+     "price": 27840,
      "airline": "ANA, Air Canada",
      "stops": 2,
      "minutes": 1255,
@@ -241,7 +248,7 @@
   },
   "rz7amf54es": {
    "meta": {
-    "last_checked": "2026-11-22T20:20:21+00:00",
+    "last_checked": "2026-11-24T00:49:29+00:00",
     "visa": {
      "country": "CA",
      "code": "required",
@@ -389,11 +396,32 @@
      "min_bag": null,
      "airline": "Air Canada, EVA Air",
      "stops": 2
+    },
+    {
+     "t": "2026-11-24T00:49:29+00:00",
+     "min": 5154,
+     "min_bag": null,
+     "airline": "EVA Air, WestJet",
+     "stops": 2
     }
    ],
    "latest": [
     {
-     "price": 5295,
+     "price": 5154,
+     "airline": "EVA Air, WestJet",
+     "stops": 2,
+     "minutes": 1529,
+     "bag": "unknown"
+    },
+    {
+     "price": 5175,
+     "airline": "EVA Air, WestJet",
+     "stops": 2,
+     "minutes": 1114,
+     "bag": "unknown"
+    },
+    {
+     "price": 5297,
      "airline": "Air Canada, EVA Air",
      "stops": 2,
      "minutes": 1094,
@@ -407,6 +435,20 @@
      "bag": "unknown"
     },
     {
+     "price": 5592,
+     "airline": "China Eastern, WestJet",
+     "stops": 1,
+     "minutes": 1385,
+     "bag": "unknown"
+    },
+    {
+     "price": 5615,
+     "airline": "China Eastern, WestJet",
+     "stops": 1,
+     "minutes": 1095,
+     "bag": "unknown"
+    },
+    {
      "price": 5629,
      "airline": "JAL, WestJet",
      "stops": 2,
@@ -414,35 +456,14 @@
      "bag": "unknown"
     },
     {
-     "price": 6046,
-     "airline": "Alaska, Korean Air",
-     "stops": 2,
-     "minutes": 1290,
-     "bag": "unknown"
-    },
-    {
-     "price": 6089,
+     "price": 6088,
      "airline": "Korean Air, WestJet",
      "stops": 2,
      "minutes": 1150,
      "bag": "unknown"
     },
     {
-     "price": 6089,
-     "airline": "Korean Air, WestJet",
-     "stops": 2,
-     "minutes": 1290,
-     "bag": "unknown"
-    },
-    {
-     "price": 6271,
-     "airline": "ANA, Air Canada",
-     "stops": 2,
-     "minutes": 1179,
-     "bag": "unknown"
-    },
-    {
-     "price": 6921,
+     "price": 6923,
      "airline": "China Airlines, WestJet",
      "stops": 2,
      "minutes": 1030,
@@ -454,17 +475,10 @@
      "stops": 1,
      "minutes": 939,
      "bag": "unknown"
-    },
-    {
-     "price": 9417,
-     "airline": "Delta, WestJet",
-     "stops": 1,
-     "minutes": 885,
-     "bag": "unknown"
     }
    ]
   }
  },
- "updated": "2026-11-22T20:20:22+00:00",
+ "updated": "2026-11-24T00:49:31+00:00",
  "currency": "CNY"
 }
